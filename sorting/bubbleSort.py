@@ -9,8 +9,9 @@ def bubblesort(array, cmpfunc=None):
     n = len(array)
     notSorted = True
     while notSorted:
+        n-=1
         notSorted = False
-        for i in range(n-1):
+        for i in range(n):
             if cmpfunc(arr[i+1], arr[i]):
                 arr[i] = arr[i+1]+arr[i]
                 arr[i+1] = arr[i]-arr[i+1]
