@@ -1,7 +1,7 @@
 # iterate through the array, find the minimum element, swap it with the first element. Now consider the array to be subarray of original array
 
 def selectionsort(array, cmpfunc=None):
-    if cmpfunc is None:
+    if cmpfunc is None or cmpfunc == 'asc':
         cmpfunc = lambda x,y: x<y
     elif cmpfunc == 'desc':
         cmpfunc = lambda x,y: x>y
