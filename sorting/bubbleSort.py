@@ -1,7 +1,7 @@
 # iterate through the array till it is sorted, in each iteration compare adjacent values and swap them if required.
 
 def bubblesort(array, cmpfunc=None):
-    if cmpfunc is None:
+    if cmpfunc is None or cmpfunc == 'asc':
         cmpfunc = lambda x,y: x<y
     if cmpfunc == 'desc':
         cmpfunc = lambda x,y: x>y
