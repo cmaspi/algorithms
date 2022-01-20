@@ -1,9 +1,9 @@
 # import statements
 import numpy as np
-import selectionSort as ss
-import bubbleSort as bs
-import insertionSort as Is
-import mergeSort as ms
+import algos.selectionSort as ss
+import algos.bubbleSort as bs
+import algos.insertionSort as Is
+import algos.mergeSort as ms
 
 class sorting:
     def __init__(self) -> None:
