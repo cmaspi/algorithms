@@ -3,7 +3,7 @@
 def bubblesort(array, cmpfunc=None):
     if cmpfunc is None or cmpfunc == 'asc':
         cmpfunc = lambda x,y: x<y
-    if cmpfunc == 'desc':
+    elif cmpfunc == 'desc':
         cmpfunc = lambda x,y: x>y
     arr = array.copy()
     n = len(array)
