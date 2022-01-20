@@ -2,6 +2,7 @@
 import numpy as np
 import selectionSort as ss
 import bubbleSort as bs
+import insertionSort as Is
 
 class sorting:
     def __init__(self) -> None:
@@ -12,7 +13,11 @@ class sorting:
 
     def bubbleSort( self, arr: np.array, cmpfunc=None):        
         return bs.bubblesort(arr, cmpfunc)
+    
+    def insertionSort( self, arr: np.array, cmpfunc=None):
+        return Is.insertionsort(arr, cmpfunc)    
 
 sort = sorting()
 print(sort.selectionSort(sort.unsorted))
 print(sort.bubbleSort(sort.unsorted))
+print(sort.insertionSort(sort.unsorted))
