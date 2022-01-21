@@ -2,6 +2,7 @@
 This repository containts my implementation of various algorithms. They can be categorised as
 1. [Sorting](https://github.com/cmaspi/algorithms/tree/main/sorting%20algorithms)
     * [bubble sort](https://github.com/cmaspi/algorithms/blob/main/sorting%20algorithms/algos/bubbleSort.py)
+    * [counting sort](https://github.com/cmaspi/algorithms/blob/main/sorting%20algorithms/algos/countingSort.py)
     * [heapsort](https://github.com/cmaspi/algorithms/blob/main/sorting%20algorithms/algos/heapSort.py)
     * [insertion sort](https://github.com/cmaspi/algorithms/blob/main/sorting%20algorithms/algos/insertionSort.py)
     * [merge sort](https://github.com/cmaspi/algorithms/blob/main/sorting%20algorithms/algos/mergeSort.py)
