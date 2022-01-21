@@ -1,4 +1,6 @@
-
+# it runs in O(nlogn) time, the idea is to heapify the nodes starting from n//2-1 index all the way up to root, making it off opposite order as to what is required, such as if we want to sort in ascending order, build a max heap. 
+# then swap the last element with the root, just like you would delete it, we are sort of building a stack here.
+# then heapify the root but don't consider the last element in the array, similarly go on doing this again and again, everytime we heapify we would extract the max element from the heap (swap it with last element of our current array(which is a subarray))
 
 def heapify(arr, i, n, cmpfunc):
     l = 2*i+1
