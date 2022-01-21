@@ -2,7 +2,6 @@
 # here k is the number range of the array, n is the number of elements in the array
 # count the number of times each element is appearing, 
 # calculate cumulative sum, then 
-# shift the array by 1 to the right
 # then start from backward and put elements in the new array
 
 def countingsort(array, cmpfunc=None, inplace=False):
