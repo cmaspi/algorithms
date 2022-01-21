@@ -4,6 +4,8 @@ import algos.selectionSort as ss
 import algos.bubbleSort as bs
 import algos.insertionSort as Is
 import algos.mergeSort as ms
+import algos.quickSort as qs
+import algos.heapSort as hs
 
 class sorting:
     def __init__(self) -> None:
@@ -18,11 +20,20 @@ class sorting:
     def insertionSort( self, arr: np.array, cmpfunc=None):
         return Is.insertionsort(arr, cmpfunc)    
 
-    def mergesort(self, arr:np.array, cmpfunc=None):
+    def mergeSort(self, arr:np.array, cmpfunc=None):
         return ms.mergesort(arr,cmpfunc)
+    
+    def quickSort(self, arr: np.array, cmpfunc=None):
+        return qs.quicksort(arr,cmpfunc)
+    
+    def heapSort(self, arr:np.array, cmpfunc=None):
+        return hs.heapsort(arr,cmpfunc)
+
 sort = sorting()
 print(sort.selectionSort(sort.unsorted))
 print(sort.bubbleSort(sort.unsorted))
 print(sort.insertionSort(sort.unsorted))
-print(sort.mergesort(sort.unsorted))
+print(sort.mergeSort(sort.unsorted))
+print(sort.quickSort(sort.unsorted))
+print(sort.heapSort(sort.unsorted))
 
