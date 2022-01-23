@@ -1,4 +1,4 @@
-# Quick sort is a divide and conquer algorithm, it works on the principle of sorting array around pivot, the elements smaller than pivot go to the right of the pivot
+# Quick sort is a divide and conquer algorithm, it works on the principle of sorting array around pivot, the elements smaller than pivot go to the left of the pivot
 
 def quicksort(array, cmpfunc=None ,inplace=False):
     if cmpfunc is None or cmpfunc == 'asc':

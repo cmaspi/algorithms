@@ -11,5 +11,7 @@ This repository containts my implementation of various algorithms. They can be c
 2. [Searching](https://github.com/cmaspi/algorithms/tree/main/searching_algorithms)
     * [binary search](https://github.com/cmaspi/algorithms/tree/main/searching_algorithms/algos/binarySearch.py)
     * [linear search](https://github.com/cmaspi/algorithms/tree/main/searching_algorithms/algos/linearSearch.py)
-    * [ternary search](https://github.com/cmaspi/algorithms/tree/main/searching_algorithms/algos/ternarySearch.py)
+    * [ternary search](https://github.com/cmaspi/algorithms/tree/main/searching_algorithms/algos/ternarySearch.py)   
+
+    
 and counting
