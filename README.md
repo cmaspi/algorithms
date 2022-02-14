@@ -12,6 +12,14 @@ This repository containts my implementation of various algorithms. They can be c
     * [binary search](https://github.com/cmaspi/algorithms/tree/main/searching_algorithms/algos/binarySearch.py)
     * [linear search](https://github.com/cmaspi/algorithms/tree/main/searching_algorithms/algos/linearSearch.py)
     * [ternary search](https://github.com/cmaspi/algorithms/tree/main/searching_algorithms/algos/ternarySearch.py)   
+    * [jump search](https://github.com/cmaspi/algorithms/tree/main/searching_algorithms/algos/jumpSearch.py)
+3. [Dynamic Programming](https://github.com/cmaspi/algorithms/tree/main/dp)
+    * [edit distance](https://github.com/cmaspi/algorithms/tree/main/dp/editdistance_dp.py)
+    * [fibonacci sequence](https://github.com/cmaspi/algorithms/tree/main/dp/fibonacci.py)
+    * [largest increasing subsequence](https://github.com/cmaspi/algorithms/tree/main/dp/increasing_subsequence_dp.py)
+    * [subset sum](https://github.com/cmaspi/algorithms/tree/main/dp/subsetsum_dp.py)
+    * [text segmentation](https://github.com/cmaspi/algorithms/tree/main/dp/text%20segmentation%20dp.py)
+4. [misc](https://github.com/cmaspi/algorithms/tree/main/misc) 
+    * [Multiplication of two n digit number](https://github.com/cmaspi/algorithms/tree/main/misc/multN_digit.py)
 
-    
 and counting
