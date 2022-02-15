@@ -3,7 +3,7 @@ from re import A
 
 global a
 a = [2,4,7,1,13,6,5,100,8,14,15]
-a = [3,10,2,1,20]
+a = [30,3,10,2,1,20]
 n = a.__len__()
 
 s = [[1 for _ in range(n+1)] for _ in range(n+1)]
