@@ -26,7 +26,9 @@ def brute(arr : list) -> int :
 # each time we want to find LIS(i,i+1), we have to find LIS(i,j) where j is greater than i+1
 # also we will have to find LIS(j,j+1) and then it's subproblems
 # So, instead we will store these in a 2 dimensional array
-#
+# base case
+#               table[i][n] = 0
+
 
 def dp(arr: list) -> int:
     """returns the length of the largest increasing subsequence"""
